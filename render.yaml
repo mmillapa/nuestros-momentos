@@ -4,6 +4,5 @@ services:
     env: node
     region: ohio
     plan: free
-    rootDir: backend
     buildCommand: npm install
     startCommand: node server.js
